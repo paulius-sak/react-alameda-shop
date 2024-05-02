@@ -1,0 +1,25 @@
+.main {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    padding: 100px 0;
+    border-bottom: 1px solid rgb(164, 160, 160);
+    margin: 0px 40px;
+}
+
+.btn {
+    all: unset;
+    cursor: pointer;
+}
+
+.space {
+    border-left: 1px solid rgb(164, 160, 160);
+}
+
+@media only screen and (max-width: 768px) {
+    .main {
+        
+        justify-content: flex-start;
+        
+    }
+}

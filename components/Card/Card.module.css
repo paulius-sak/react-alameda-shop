@@ -1,0 +1,23 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 40px 0;
+    gap: 10px;
+    cursor: pointer;
+}
+.title,
+.price {
+    color: rgb(49, 48, 48);
+}
+
+.price {
+    font-size: 16px;
+}
+
+.main button{
+    width: 50%;
+    cursor: pointer;
+    padding: 5px 0;
+    border: none;
+}
